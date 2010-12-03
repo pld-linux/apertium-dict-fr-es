@@ -17,8 +17,6 @@ BuildRequires:	libxslt-progs
 BuildRequires:	lttoolbox >= 3.2.0
 BuildRequires:	pkgconfig
 Requires:	apertium >= 3.2.0
-Requires:	libxml2 >= 1:2.6.17
-Requires:	pcre-cxx >= 6.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
