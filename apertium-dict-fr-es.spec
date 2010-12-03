@@ -22,12 +22,14 @@ Requires:	pcre-cxx >= 6.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Apertium is a free/open-source platform for developing rule-based
-machine translation systems.
+This is an Apertium language pair, which can be used for translating
+between French and Spanish, morphological analysis or part-of-speech
+tagging of both languages.
 
 %description -l pl.UTF-8
-Apertium to wolnodostępna platforma do tworzenia maszynowych systemów
-tłumaczących opartych na regułach.
+Ten pakiet zawiera parę języków dla Apertium służącą do tłumaczenia
+między francuskim a hiszpańskim, a także analizy morfologicznej lub
+oznaczania części mowy w obu językach.
 
 %prep
 %setup -q -n apertium-%{lpair}-%{version}
